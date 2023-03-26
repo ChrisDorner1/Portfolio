@@ -1,0 +1,45 @@
+:root{
+    --color1:red;
+    --color2:#22272c;
+    --color3:rgb(6, 45, 90);
+    --color4:rgb(63, 182, 152);
+}
+*{
+    background-color: var(--color2);
+}
+
+a:link{
+    color: slateblue;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: red;
+}
+.navbar{
+    font-size: 19px;
+    margin-left: 1480px;
+    display: inline;
+}
+header h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aqua;
+    color: var(--color2);
+    display: inline;
+    font-size: 30px;
+    margin-left: 12px;
+}
+main h2{
+    font-size: 40px;
+    display: block;
+    margin-left: 700px;
+    margin-top: 75px;
+    color: rgb(4, 158, 196);
+}
+
+.card{
+    display: block;
+
+}
