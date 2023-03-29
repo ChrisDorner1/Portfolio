@@ -3,6 +3,7 @@
     --color2:#22272c;
     --color3:rgb(6, 45, 90);
     --color4:rgb(63, 182, 152);
+    --MR: 650px;
 }
 *{
     background-color: var(--color2);
@@ -18,9 +19,10 @@ a:hover{
     cursor: pointer;
     color: red;
 }
+
 .navbar{
     font-size: 19px;
-    margin-left: 1480px;
+    margin-left: 1330px;
     display: inline;
 }
 header h1{
@@ -28,8 +30,11 @@ header h1{
     background-color: aqua;
     color: var(--color2);
     display: inline;
-    font-size: 30px;
-    margin-left: 12px;
+    font-size: 40px;
+    margin-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
 }
 main h2{
     font-size: 40px;
@@ -42,4 +47,36 @@ main h2{
 .card{
     display: block;
 
+}
+.Example{
+    margin-left: 150px;
+}
+section img{
+    display: flex;
+    max-width: 800px;
+    max-height: 500px;
+    margin-top: 25px;
+    margin-left: 628px;
+    border: 1px solid var(--color4);
+    border-radius: 4px;
+    padding: 5px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.text {
+    color: var(--color4);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+#AM{
+    margin-right: var(--MR);
+    color: var(--color3);
+}
+#R{
+    margin-right: var(--MR);
+    color: var(--color3);
 }
