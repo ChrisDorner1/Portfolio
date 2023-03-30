@@ -3,7 +3,8 @@
     --color2:#22272c;
     --color3:rgb(6, 45, 90);
     --color4:rgb(63, 182, 152);
-    --MR: 650px;
+    --color5:rgb(63, 158, 196);
+    --margin-right: 650px;
 }
 *{
     background-color: var(--color2);
@@ -22,8 +23,9 @@ a:hover{
 
 .navbar{
     font-size: 19px;
-    margin-left: 1330px;
     display: inline;
+    display: flex;
+    justify-content: end;
 }
 header h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -37,46 +39,42 @@ header h1{
     border-radius: 5px;
 }
 main h2{
+    display: flex;
+    flex: 1 1 400px;
     font-size: 40px;
-    display: block;
-    margin-left: 700px;
-    margin-top: 75px;
-    color: rgb(4, 158, 196);
+    color: var(--color5);
 }
-
-.card{
-    display: block;
-
-}
-.Example{
-    margin-left: 150px;
-}
-section img{
+section h2{
     display: flex;
-    max-width: 800px;
-    max-height: 500px;
-    margin-top: 25px;
-    margin-left: 628px;
-    border: 1px solid var(--color4);
-    border-radius: 4px;
-    padding: 5px;
+    flex: wrap;
+    flex: 1 1 auto;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
-main{
+section h3{
     display: flex;
-    flex-direction: column;
-}
-.text {
-    color: var(--color4);
-    display: flex;
+    flex: wrap;
+    flex: 1 1 auto;
     justify-content: center;
     text-align: center;
-    
+    color: var(--color5);
+    margin-top: 10px;
 }
-#AM{
-    margin-right: var(--MR);
-    color: var(--color3);
+#aboutme{
+    color: seagreen;
 }
-#R{
-    margin-right: var(--MR);
-    color: var(--color3);
+#contactme{
+    color: teal;
+}
+img{
+    display: flex;
+    display: inline;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1 1 auto;
+    width: 100%;
+    height: 500px;
+    border: 1px solid var(--color4);
+    border-radius: 4px;
 }
